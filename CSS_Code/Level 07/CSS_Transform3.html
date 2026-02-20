@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Transform-translate</title>
+    <style>
+        .box{
+            height:50px;
+            width:100px;
+            background-color: lightgoldenrodyellow;
+            border:3px solid black;
+            border-radius: 10px;
+            text-align: center;
+            margin:10px;
+
+
+        
+            transition: all ease-in-out 2s;
+        }
+        .box:hover{
+            height:75px;
+            width:150px;
+            background-color: powderblue;
+            transform: translate(20px, 20px);
+
+        }
+        .box:active{
+            height:75px;
+            width:150px;
+            background-color: red;
+        } 
+    </style>
+</head>
+<body>
+    <div class="box">Rotate</div>
+    <div class="box">Rotate</div>
+    <div class="box">Rotate</div>
+    <div class="box">Rotate</div>
+</body>
+</html>

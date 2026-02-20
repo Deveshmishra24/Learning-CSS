@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Transition</title>
+    <style>
+        .pseudo{
+            height:25px;
+            width:100px;
+            background-color: lightgoldenrodyellow;
+            border:3px solid black;
+            border-radius: 10px;
+
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0.1s;
+            /*transition: all is ease-in-out 0.1s*/
+        }
+        .pseudo:hover{
+            height:35px;
+            width:150px;
+            background-color: powderblue;
+        }
+        .pseudo:active{
+            height:35px;
+            width:150px;
+            background-color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <button class="pseudo">Click Box</button>
+  
+</body>
+</html>
